@@ -1,4 +1,4 @@
-#Presentation
+# Presentation
 
 ## Some Basic Theory
 There are two main parts to this code
@@ -10,5 +10,5 @@ There are two main parts to this code
 
 
 
-##Some Interesting Situations
+## Some Interesting Situations
 The code has several preset options for selecting different initial conditions. Each of these correspond to some different physical situation. It is also possible to customise...
