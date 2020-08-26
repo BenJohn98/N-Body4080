@@ -43,7 +43,7 @@ Once each of the inputs has been taken, the code then computes the acceleration 
 
 The final block of code is used to create an animation using the plots generated at each timestep. In a second panel, the correlation function is plotted for each timestep to easily compare with the distribution. ffmpeg is required to generate and view these animations and can be downloaded from... The path to where ffmpeg is saved needs to be specified in line... The animation is saved automatically as an mp4 file 'littleuniverse.mp4' in the same directory as the source code is being run. 
 
-- Some extra notes and things to watch out for
+## Some extra notes and things to watch out for
 Can improve smoothness of animation by decreasing frames per timestep however code will take longer to run
 
 Correlation function quite noisy under certain conditions
