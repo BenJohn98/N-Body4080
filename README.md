@@ -7,9 +7,7 @@ N-Body simulation project for PHYS4080, University of Queensland, Semester 2, 20
 ## Documentation
 - Can be found in doc/ on Github repository: 
 
-Two main documentation files are provided in .pdf form. The first contains a breif, one-page description of the physics/methods used to generate the N-body sim. The second contains a walkthrough of various interesting situations produced by different combinations of input options in order to explain the physics concepts to a non-expert. If starting from scratch, I recommend reading ... followed by ... to obtain a complete presentation of
-
-## Compilation
+Two main documentation files are provided in .pdf form. The first contains a breif, one-page description of the physics/methods used to generate the N-body sim. The second contains a walkthrough of various interesting situations produced by different combinations of input options in order to explain the physics concepts to a non-expert. If starting from scratch, I recommend reading nbody_physics.pdf followed by nbody_presentation.pdf to obtain a complete presentation of
 
 
 ## Running LittleUniverse.py
