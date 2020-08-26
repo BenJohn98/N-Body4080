@@ -36,8 +36,12 @@ Fist the user will be asked to input maximum drift velocity (in units of positio
 
 - The Algorithm
 
+Once each of the inputs has been taken, the code then computes the acceleration due to gravity on each of the particles. The algorithm itself is fairly simple consisting of only a few functions. The function **sep** is required to generate the correlation function and simlply takes the position arrays (dependant on the selected position configuration) and generates a matrix of particle separations. The function **apply_boundary** defines the periodic boundary conditions of the box. The function **magdistance** simply computes the 3D distance for each particle. Then, **acceleration** returns the acceleration at a given timestep for each particle individually, calling **magdistance** to determine the magnitude of separation for each particle. The final function, **update**, updates and plots the position and velocity of each particle given the acceleration at each timestep. Included in this function is the plot of the correlation function at each timestep. 
+
 
 - Output
+
+The final block of code is used to create an animation using the plots generated at each timestep. In a second panel, the correlation function is plotted for each timestep to easily compare with the distribution. ffmpeg is required to generate and view these animations and can be downloaded from... The path to where ffmpeg is saved needs to be specified in line... The animation is saved automatically as an mp4 file 'littleuniverse.mp4' in the same directory as the source code is being run. 
 
 - Some extra notes and things to watch out for
 Can improve smoothness of animation by decreasing frames per timestep however code will take longer to run
